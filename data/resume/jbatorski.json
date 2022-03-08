@@ -16,6 +16,54 @@
   },
   "work": [
     {
+      "name": "Grubhub",
+      "location": "Chicago, IL",
+      "url": "https://www.grubhub.com/",
+      "startDate": "2016-11-01",
+      "skills": [
+        "JavaScript",
+        "React",
+        "Redux",
+        "SCSS",
+        "Jasmine/Karma",
+        "TestCafe",
+        "Jest",
+        "RTL",
+        "TypeScript",
+        "SCRUM",
+        "JIRA",
+        "Git"
+      ],
+      "positions": [
+        {
+          "position": "Staff Engineer",
+          "startDate": "2021-08-01"
+        },
+        {
+          "position": "Senior Software Engineer",
+          "startDate": "2018-03-01",
+          "endDate": "2021-08-01"
+        },
+        {
+          "position": "Software Engineer II",
+          "startDate": "2016-11-01",
+          "endDate": "2018-03-01"
+        }
+      ],
+      "highlights": [
+        "Built functional React components (utilizing hooks when appropriate), elevated common state and async handling to redux reducers, and extracted components as sensible patterns of usage emerged.",
+        "Utilize Grubhub’s component library for common cases to solve design needs, maintain consistency of user experience, and speed up development. For situational needs, have leveraged SCSS or Styled Components.",
+        "Wrote unit, integration, and E2E tests, balancing coverage, confidence, level of effort, and maintenance costs.",
+        "Championed good programming practices by writing clear/maintainable code, thorough code reviews, balancing development speed vs tech debt, and participating in architecture discussions.",
+        "Initiated practice of doing project level retros to improve the approach for future projects.",
+        "Adept at ramping up on unfamiliar codebases and domains, making meaningful contributions, after tackling projects across the Restaurant, Delivery, Customer Support, Corporate Client, and Diner portions of the Grubhub business.",
+        "Worked with product, design, and engineering across the organization to understand the impact of project changes, clarify intent, identify gaps, and propose solutions.",
+        "Broke projects down into deliverable features and parallelizable stories, prioritizing work based on the most business value.",
+        "In recent years, split my time between leading a squad of 3 front end engineers and implementation work. Lead agile ceremonies and was responsible for deliverables of multiple concurrent projects.",
+        "Heavily engaged in team book club, tackling topics around code quality, professionalism, communication, remote work, and project management. Topics like Phoenix Project, Clean Code, and GitLab’s Remote Work Playbook were especially influential in how my squad, team, and I operated."
+      ]
+    },
+    {
       "name": "CDK Global",
       "location": "Hoffman Estates, IL",
       "position": "Software Developer",
@@ -119,54 +167,6 @@
       "endDate": "2005-06-01"
     }
   ],
-  "skills": [
-    {
-      "name": "Programming",
-      "keywords": [
-        "JavaScript",
-        "C#",
-        "ASP.NET MVC",
-        "SQL",
-        "CSS/SCSS",
-        "HTML"
-      ]
-    },
-    {
-      "name": "Frameworks",
-      "keywords": [
-        "AngularJS 1.x",
-        "Bootstrap",
-        "jQuery",
-        "jQueryUI",
-        "Karma/Jasmine"
-      ]
-    },
-    {
-      "name": "Software",
-      "keywords": [
-        "Git",
-        "Visual Studio",
-        "TFS",
-        "IIS 6/7"
-      ]
-    },
-    {
-      "name": "CI",
-      "keywords": [
-        "JIRA",
-        "Bamboo",
-        "Sonar",
-        "SauceLabs"
-      ]
-    },
-    {
-      "name": "Database",
-      "keywords": [
-        "SQL Server 2008/2012",
-        "Oracle 9i/10"
-      ]
-    }
-  ],
   "languages": [
     {
       "language": "English",
@@ -180,6 +180,6 @@
   "meta": {
     "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
     "version": "v1.0.0",
-    "lastModified": "2016-10-12T00:00:00"
+    "lastModified": "2022-03-07T00:00:00"
   }
 }
