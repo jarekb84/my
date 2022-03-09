@@ -33,16 +33,16 @@
       ],
       "positions": [
         {
-          "position": "Staff Engineer",
+          "title": "Staff Engineer",
           "startDate": "2021-08-01"
         },
         {
-          "position": "Senior Software Engineer",
+          "title": "Senior Software Engineer",
           "startDate": "2018-03-01",
           "endDate": "2021-08-01"
         },
         {
-          "position": "Software Engineer II",
+          "title": "Software Engineer II",
           "startDate": "2016-11-01",
           "endDate": "2018-03-01"
         }
@@ -62,8 +62,14 @@
     },
     {
       "name": "CDK Global",
-      "location": "Hoffman Estates, IL",
-      "position": "Software Developer",
+      "location": "Hoffman Estates, IL",      
+      "positions": [
+        {
+          "title": "Software Developer",
+          "startDate": "2014-10-01",
+          "endDate": "2016-08-01"
+        }
+      ],
       "url": "https://www.cdkglobal.com/",
       "startDate": "2014-10-01",
       "endDate": "2016-08-01",
@@ -92,7 +98,13 @@
     {
       "name": "Answers Media",
       "location": "Chicago, IL",
-      "position": "Software Developer",
+      "positions": [
+        {
+          "title": "Software Developer",
+          "startDate": "2012-03-01",
+          "endDate": "2014-10-01"
+        }
+      ],
       "url": "https://www.answersmediainc.com/",
       "startDate": "2012-03-01",
       "endDate": "2014-10-01",
@@ -131,17 +143,17 @@
       ],
       "positions": [
         {
-          "position": "Human Capital IT Systems Analyst",
+          "title": "Human Capital IT Systems Analyst",
           "startDate": "2010-08-01",
           "endDate": "2012-03-01"
         },
         {
-          "position": "Senior Payroll Analyst",
+          "title": "Senior Payroll Analyst",
           "startDate": "2008-07-01",
           "endDate": "2010-08-01"
         },
         {
-          "position": "Payroll Systems Analyst",
+          "title": "Payroll Systems Analyst",
           "startDate": "2007-10-01",
           "endDate": "2008-07-01"
         }
