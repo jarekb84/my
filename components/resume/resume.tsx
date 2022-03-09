@@ -33,21 +33,15 @@ interface Position {
 
 interface Work {
     name: string;
-    location: string;
-    description: string;
-    position: string;
-    positions: Position[];
-    url: string;
+    positions: Position[];    
     startDate: string;
     endDate?: string;
-    summary: string;
     skills: string[];
     highlights: string[]
 }
 
 interface Basics {
-    name: string;
-    label: string;
+    name: string;    
     email: string;
     url: string;
     summaryOfQualifications: string[]
