@@ -1,4 +1,4 @@
-import React, { FC } from 'react'
+import React, { FC } from 'react';
 import Position from './positions';
 import Skills from './skills';
 
@@ -27,7 +27,7 @@ const Company: FC<CompanyProps> = ({ name, skills, positions, highlights }) => {
         <div>
             {highlights.map(highlight => <p key={highlight}>{highlight}</p>)}
         </div>
-    </div>
-}
+    </div>;
+};
 
-export default Company
+export default Company;

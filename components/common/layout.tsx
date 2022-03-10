@@ -1,6 +1,6 @@
-import React, { FC } from 'react'
-import Navbar from './navbar'
-import Head from 'next/head'
+import React, { FC } from 'react';
+import Navbar from './navbar';
+import Head from 'next/head';
 
 const Layout: FC = ({ children }) => {
     return <>
@@ -11,7 +11,7 @@ const Layout: FC = ({ children }) => {
         </Head>
         <Navbar />
         <main>{children}</main>
-    </>
-}
+    </>;
+};
 
-export default Layout
+export default Layout;
