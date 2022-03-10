@@ -1,6 +1,6 @@
 
-import React, { FC } from 'react'
-import Link from "next/link";
+import React, { FC } from 'react';
+import Link from 'next/link';
 
 const Navbar: FC = () => {
     return <>
@@ -10,7 +10,7 @@ const Navbar: FC = () => {
         <Link href="/resume">
             <a>Resume</a>
         </Link>
-    </>
-}
+    </>;
+};
 
-export default Navbar
+export default Navbar;

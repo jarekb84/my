@@ -1,4 +1,4 @@
-import React, { FC } from 'react'
+import React, { FC } from 'react';
 import Position from './positions';
 import Skills from './skills';
 
@@ -22,16 +22,12 @@ const Company: FC<CompanyProps> = ({ name, skills, positions, highlights }) => {
         <h3>{name}</h3>
         <Skills skills={skills} />
         <div>
-            {positions.map(position =>
-                <Position key={`${name} ${position.title}`} {...position} />
-            )}
+            {positions.map(position => <Position key={`${name} ${position.title}`} {...position} />)}
         </div>
         <div>
-            {highlights.map(highlight =>
-                <p key={highlight}>{highlight}</p>
-            )}
+            {highlights.map(highlight => <p key={highlight}>{highlight}</p>)}
         </div>
-    </div>
-}
+    </div>;
+};
 
-export default Company
+export default Company;

@@ -1,4 +1,4 @@
-import React, { FC } from 'react'
+import React, { FC } from 'react';
 
 interface PositionProps {
     title: string;
@@ -9,7 +9,7 @@ interface PositionProps {
 const Position: FC<PositionProps> = ({ title, startDate, endDate }) => {
     return <div>
         <strong>{title}</strong> {startDate} -- {endDate}
-    </div>
-}
+    </div>;
+};
 
-export default Position
+export default Position;

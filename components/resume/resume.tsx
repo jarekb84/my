@@ -1,4 +1,4 @@
-import React, { FC } from 'react'
+import React, { FC } from 'react';
 import Company from './company/company';
 
 interface ResumeProps {
@@ -17,13 +17,13 @@ const Resume: FC<ResumeProps> = ({ data }) => {
         <h2>Summary of Qualifications</h2>
         <div>
             {data.basics.summaryOfQualifications.map(qualification => {
-                return <div key={qualification}>{qualification}</div>
+                return <div key={qualification}>{qualification}</div>;
             })}
         </div>
         <h2>Professional Experience</h2>
         {data.work.map(company => <Company {...company} key={company.name} />)}
-    </div>
-}
+    </div>;
+};
 
 interface Position {
     title: string;
@@ -33,7 +33,7 @@ interface Position {
 
 interface Work {
     name: string;
-    positions: Position[];    
+    positions: Position[];
     startDate: string;
     endDate?: string;
     skills: string[];
@@ -41,7 +41,7 @@ interface Work {
 }
 
 interface Basics {
-    name: string;    
+    name: string;
     email: string;
     url: string;
     summaryOfQualifications: string[]
@@ -51,4 +51,4 @@ interface Resume {
     work: Work[]
 }
 
-export default Resume
+export default Resume;
