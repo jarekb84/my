@@ -41,15 +41,6 @@ module.exports = {
         "spaced-comment": ["error", "always"],
         "yoda": "error",
 
-
-        // "sort-imports": ["error", {
-        //     "ignoreCase": false,
-        //     "ignoreDeclarationSort": false,
-        //     "ignoreMemberSort": false,
-        //     "memberSyntaxSortOrder": ["none", "all", "multiple", "single"],
-        //     "allowSeparatedGroups": false
-        // }]
-
         "array-bracket-spacing": ["error", "never"],
         "arrow-parens": ["error", "as-needed"],
         "arrow-spacing": "error",
