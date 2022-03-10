@@ -3,6 +3,7 @@ import Resume from '../components/resume/resume'
 import jbatorski from '../data/resume/jbatorski.json'
 
 interface ResumePageProps {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     data: any
 }
 
