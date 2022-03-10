@@ -11,7 +11,6 @@ const Skills: FC<SkillsProps> = ({ skills }) => {
         })}
         </span>
     </div>
-
 }
 
 export default Skills

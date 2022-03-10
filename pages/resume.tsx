@@ -12,7 +12,6 @@ const ResumePage: FC<ResumePageProps> = ({ data }) => {
 }
 
 export async function getStaticProps() {
-
     return {
         props: {
             data: jbatorski,
