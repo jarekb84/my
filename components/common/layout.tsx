@@ -1,6 +1,6 @@
 import React, { FC } from 'react';
-import Navbar from './navbar';
 import Head from 'next/head';
+import Navbar from './navbar';
 
 const Layout: FC = ({ children }) => {
     return <>
