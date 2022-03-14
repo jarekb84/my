@@ -1,6 +1,6 @@
 import React, { FC } from 'react';
 import { Job } from '../types';
-import Position from './positions';
+import Position from './position';
 
 const Job: FC<Job> = ({ companyName, positions, highlights }) => {
     return <div>
