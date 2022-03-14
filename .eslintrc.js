@@ -19,7 +19,7 @@ module.exports = {
         "id-length": ["error", { "min": 2 }],
         "max-depth": ["error", 4],
         "max-lines": ["error", 200],
-        "complexity": ["error", 2],
+        "complexity": ["error", 5],
 
         "no-duplicate-imports": "error",
         "no-console": "error",

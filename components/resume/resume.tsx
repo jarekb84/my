@@ -1,46 +1,34 @@
 import React, { FC } from 'react';
-import Company from './company/company';
+import Job from './job/job';
+import Skills from './skills';
+import { Basics, Job as IJob } from './types';
+
 
 interface ResumeProps {
-    data: Resume
+    basics: Basics;
+    skills: string[];
+    jobs: IJob[]
 }
 
-const Resume: FC<ResumeProps> = ({ data }) => {
+const Resume: FC<ResumeProps> = ({ basics, skills, jobs }) => {
     return <div>
-        <h1>{data.basics.name}</h1>
+        <h1>{basics.name}</h1>
         <div>
             <div>
-                <strong>Email</strong> {data.basics.email}
-                <strong>Github</strong> {data.basics.url}
+                <strong>Email</strong> {basics.email}
+                <strong>Github</strong> {basics.url}
             </div>
         </div>
-        <h2>Summary of Qualifications</h2>
         <div>
-            {data.basics.summary}
+            {basics.summary}
+        </div>
+        <h2>Skills</h2>
+        <div>
+            <Skills skills={skills} />
         </div>
         <h2>Professional Experience</h2>
-        {data.work.map(company => <Company {...company} key={company.name} />)}
+        {jobs.map(job => <Job {...job} key={job.companyName} />)}
     </div>;
 };
-
-interface Work {
-    name: string;
-    position: string;
-    startDate: string;
-    endDate?: string;
-    skills: string[];
-    highlights?: string[]
-}
-
-interface Basics {
-    name: string;
-    email: string;
-    url: string;
-    summary: string;
-}
-interface Resume {
-    basics: Basics;
-    work: Work[]
-}
 
 export default Resume;
