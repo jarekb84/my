@@ -33,13 +33,13 @@ function transform({ basics, skills, work }: ResumeJson) {
             summary: basics.summary,
         },
         skills: skills.flatMap(skillSet => skillSet.keywords),
-        jobs: getJobsFromWorkItems(work),
+        jobs: groupWorkItemsByCompany(work),
     };
 
     return uiModel;
 }
 
-function getJobsFromWorkItems(work: WorkItem[]) {
+function groupWorkItemsByCompany(work: WorkItem[]) {
     // Using map since it remembers insertion order
     // so when converting back to array
     // we don't need to worry bout sorting by job start/end times
