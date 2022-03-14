@@ -2,30 +2,23 @@ import React, { FC } from 'react';
 import Position from './positions';
 import Skills from './skills';
 
-interface Position {
-    title: string;
-    startDate: string;
-    endDate?: string;
-}
-
 interface CompanyProps {
     name: string;
-    positions: Position[];
+    position: string;
     startDate: string;
-    endDate?: string;
-    skills: string[];
+    endDate?: string;    
     highlights: string[]
 }
 
-const Company: FC<CompanyProps> = ({ name, skills, positions, highlights }) => {
+const Company: FC<CompanyProps> = ({ name, position, highlights }) => {
     return <div>
         <h3>{name}</h3>
-        <Skills skills={skills} />
+        {/* <Skills skills={skills} /> */}
+        {/* <div>
+            {positions.map(position => <Position key={`${name} ${position.position}`} {...position} />)}
+        </div> */}
         <div>
-            {positions.map(position => <Position key={`${name} ${position.title}`} {...position} />)}
-        </div>
-        <div>
-            {highlights.map(highlight => <p key={highlight}>{highlight}</p>)}
+            {highlights?.map(highlight => <p key={highlight}>{highlight}</p>)}
         </div>
     </div>;
 };

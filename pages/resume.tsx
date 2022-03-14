@@ -1,6 +1,6 @@
 import React, { FC } from 'react';
 import Resume from '../components/resume/resume';
-import jbatorski from '../data/resume/jbatorski.json';
+import resumeData from '../data/resume/resume.json';
 
 interface ResumePageProps {
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -14,7 +14,7 @@ const ResumePage: FC<ResumePageProps> = ({ data }) => {
 export async function getStaticProps() {
     return {
         props: {
-            data: jbatorski,
+            data: resumeData,
         },
     };
 }

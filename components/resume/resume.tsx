@@ -16,35 +16,27 @@ const Resume: FC<ResumeProps> = ({ data }) => {
         </div>
         <h2>Summary of Qualifications</h2>
         <div>
-            {data.basics.summaryOfQualifications.map(qualification => {
-                return <div key={qualification}>{qualification}</div>;
-            })}
+            {data.basics.summary}
         </div>
         <h2>Professional Experience</h2>
         {data.work.map(company => <Company {...company} key={company.name} />)}
     </div>;
 };
 
-interface Position {
-    title: string;
-    startDate: string;
-    endDate?: string;
-}
-
 interface Work {
     name: string;
-    positions: Position[];
+    position: string;
     startDate: string;
     endDate?: string;
     skills: string[];
-    highlights: string[]
+    highlights?: string[]
 }
 
 interface Basics {
     name: string;
     email: string;
     url: string;
-    summaryOfQualifications: string[]
+    summary: string;
 }
 interface Resume {
     basics: Basics;
