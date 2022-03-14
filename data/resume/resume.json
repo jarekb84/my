@@ -5,48 +5,15 @@
     "label": "Frontend Software Engineer",
     "email": "jerry.batorski@gmail.com",
     "url": "https://jarekb84.github.io/me/",
-    "summaryOfQualifications": [
-      "11+ YOE as a software engineer, with a focus on the frontend",
-      "9+ YOE breaking down projects, communicating with stakeholders, delivering business value, and adapting to change",
-      "3+ YOE leading a frontend focused squad of software engineers"
-    ]
+    "summary": "Frontend focused software engineer, with over 11 years of experience, covering everything from implementing ideas to leading projects."
   },
   "work": [
     {
       "name": "Grubhub",
       "location": "Chicago, IL",
       "url": "https://www.grubhub.com/",
-      "startDate": "2016-11-01",
-      "skills": [
-        "JavaScript",
-        "React",
-        "Redux",
-        "SCSS",
-        "Jasmine/Karma",
-        "TestCafe",
-        "Jest",
-        "RTL",
-        "TypeScript",
-        "SCRUM",
-        "JIRA",
-        "Git"
-      ],
-      "positions": [
-        {
-          "title": "Staff Engineer",
-          "startDate": "2021-08-01"
-        },
-        {
-          "title": "Senior Software Engineer",
-          "startDate": "2018-03-01",
-          "endDate": "2021-08-01"
-        },
-        {
-          "title": "Software Engineer II",
-          "startDate": "2016-11-01",
-          "endDate": "2018-03-01"
-        }
-      ],
+      "position": "Staff Engineer",
+      "startDate": "2021-08-01",
       "highlights": [
         "Built functional React components (utilizing hooks when appropriate), elevated common state and async handling to redux reducers, and extracted components as sensible patterns of usage emerged.",
         "Utilize Grubhub’s component library for common cases to solve design needs, maintain consistency of user experience, and speed up development. For situational needs, have leveraged SCSS or Styled Components.",
@@ -61,31 +28,28 @@
       ]
     },
     {
+      "name": "Grubhub",
+      "location": "Chicago, IL",
+      "url": "https://www.grubhub.com/",
+      "position": "Senior Software Engineer",
+      "startDate": "2018-03-01",
+      "endDate": "2021-08-01"
+    },
+    {
+      "name": "Grubhub",
+      "location": "Chicago, IL",
+      "url": "https://www.grubhub.com/",
+      "position": "Software Engineer II",
+      "startDate": "2016-11-01",
+      "endDate": "2018-03-01"
+    },
+    {
       "name": "CDK Global",
-      "location": "Hoffman Estates, IL",      
-      "positions": [
-        {
-          "title": "Software Developer",
-          "startDate": "2014-10-01",
-          "endDate": "2016-08-01"
-        }
-      ],
+      "location": "Hoffman Estates, IL",
       "url": "https://www.cdkglobal.com/",
+      "position": "Software Developer",
       "startDate": "2014-10-01",
       "endDate": "2016-08-01",
-      "skills": [
-        "JavaScript",
-        "Angular",
-        "SCSS",
-        "Jasmine/Karma",
-        "Selenium",
-        "Bamboo",
-        "TDD",
-        "C#",
-        "SCRUM",
-        "JIRA",
-        "TFS"
-      ],
       "highlights": [
         "As part of a multi team environment, developed the Inventory product within the suite of applications that make up CDK's Front Office Edge application in the automotive dealership industry. App built using Angular JS and tested with Jasmine/Selenium. Utilizing Grunt, RequireJS, ESLint, and Karma in the build process.",
         "Helped team come up with a testing strategy encompassing unit, integration, and end to end tests to improve confidence when deploying changes from development to production environments.",
@@ -98,26 +62,10 @@
     {
       "name": "Answers Media",
       "location": "Chicago, IL",
-      "positions": [
-        {
-          "title": "Software Developer",
-          "startDate": "2012-03-01",
-          "endDate": "2014-10-01"
-        }
-      ],
       "url": "https://www.answersmediainc.com/",
+      "position": "Software Developer",
       "startDate": "2012-03-01",
       "endDate": "2014-10-01",
-      "skills": [
-        "C#",
-        "MVC.NET",
-        "Entity Framework",
-        "JavaScript",
-        "CSS",
-        "jQuery",
-        "Angular",
-        "TFS"
-      ],
       "highlights": [
         "Developed live Q&A session web app utilizing SignalR across load balanced servers with a SQL Server Backplane to facilitate communication between thousands of connected clients. Angular.js was used to create the UI, allow admins to toggle availability of sections in the UI, and push changes via SignalR to all clients.",
         "Utilizing MVC4 razor views, jQuery, and AJAX, developed dynamic admin interface with a simple workflow targeted at business users, allowing them to easily create and manage our Learning Management System component with little training.",
@@ -129,41 +77,31 @@
       "name": "Chicago Public Schools",
       "location": "Chicago, IL",
       "url": "https://www.cps.edu/",
-      "startDate": "2006-12-01",
+      "position": "Human Capital IT Systems Analyst",
+      "startDate": "2010-08-01",
       "endDate": "2012-03-01",
-      "skills": [
-        "C#",
-        "MVC.NET",
-        "JavaScript",
-        "CSS",
-        "jQuery",
-        "SQL",
-        "PeopleSoft",
-        "TFS"
-      ],
-      "positions": [
-        {
-          "title": "Human Capital IT Systems Analyst",
-          "startDate": "2010-08-01",
-          "endDate": "2012-03-01"
-        },
-        {
-          "title": "Senior Payroll Analyst",
-          "startDate": "2008-07-01",
-          "endDate": "2010-08-01"
-        },
-        {
-          "title": "Payroll Systems Analyst",
-          "startDate": "2007-10-01",
-          "endDate": "2008-07-01"
-        }
-      ],
       "highlights": [
         "As part of a small team, developed an ASP.NET Online Recruiting System for school based personnel used to collect candidate data, automatically post vacant positions, and to hire candidates. Tight three-month schedule resulted in 30,000 applications and 3,200 hires within six months of launching.",
         "On variety of smaller projects: meet with stakeholders to understand business needs, worked with end users to understand workflows, and developed the ASP.NET apps to address those needs.",
         "Initiated various internal system upgrades including: use of TFS as a source control system, developed a branching strategy to accommodate multiple development streams, upgraded all systems to .NET 4, introduced logging using Log4Net, and created a deployment and hosting strategy to accommodate the testing of multiple development streams.",
         "Ran payroll for 55k+ employees, wrote SQL audit reports, built tooling to automate execution of reports."
       ]
+    },
+    {
+      "name": "Chicago Public Schools",
+      "location": "Chicago, IL",
+      "url": "https://www.cps.edu/",
+      "position": "Senior Payroll Analyst",
+      "startDate": "2008-07-01",
+      "endDate": "2010-08-01"
+    },
+    {
+      "name": "Chicago Public Schools",
+      "location": "Chicago, IL",
+      "url": "https://www.cps.edu/",
+      "startDate": "2007-10-01",
+      "endDate": "2008-07-01",
+      "position": "Payroll Systems Analyst"
     }
   ],
   "education": [
@@ -171,7 +109,7 @@
       "institution": "University of Illinois at Chicago",
       "url": "https://www.uic.edu/",
       "area": "Computer Science",
-      "studyType": " Bachelor of Science",
+      "studyType": "Bachelor of Science",
       "startDate": "2003-09-01",
       "endDate": "2005-06-01"
     }
@@ -186,9 +124,28 @@
       "fluency": "Native speaker, Grade School Level"
     }
   ],
+  "skills": [
+    {
+      "name": "Engineering",
+      "keywords": [
+        "JavaScript",
+        "React",
+        "Redux",
+        "SCSS",
+        "Jasmine/Karma",
+        "TestCafe",
+        "Jest",
+        "RTL",
+        "TypeScript",
+        "SCRUM",
+        "JIRA",
+        "Git"
+      ]
+    }
+  ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
     "version": "v1.0.0",
-    "lastModified": "2022-03-07T00:00:00"
+    "lastModified": "2022-03-13T00:00:00"
   }
 }
