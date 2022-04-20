@@ -10,7 +10,9 @@ interface DateRangeProps {
 
 const DateRange: FC<DateRangeProps> = ({ start, end, fallback = 'Present' }) => {
     return <span>
-        {formatDate(start, 'MM/yyyy')} - {formatDate(end, 'MM/yyyy', fallback)}
+        {formatDate(start, 'MM/yyyy')}
+        {' - '}
+        {formatDate(end, 'MM/yyyy', fallback)}
     </span>;
 };
 
