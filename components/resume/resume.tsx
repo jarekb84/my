@@ -11,12 +11,12 @@ interface ResumeProps {
 }
 
 const Resume: FC<ResumeProps> = ({ basics, skills, jobs }) => {
-    return <div className='resume'>
-        <div className='resume__contact-info'>
+    return <div className="resume">
+        <div className="resume__contact-info">
             <h1>{basics.name}</h1>
-            <div className='resume__contact-info__basics'>
+            <div className="resume__contact-info__basics">
                 <div><strong>Email</strong><a href={`mailto:${basics.email}`}> {basics.email}</a></div>
-                <div><strong>Github</strong> <a href={basics.url} target="_blank">{basics.url.replace('https://', '')}</a></div>
+                <div><strong>Github</strong> <a href={basics.url} target="_blank" rel="noreferrer">{basics.url.replace('https://', '')}</a></div>
             </div>
         </div>
         <div>
