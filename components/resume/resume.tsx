@@ -3,7 +3,6 @@ import Job from './job/job';
 import Skills from './skills/skills';
 import { Basics, Job as IJob } from './types';
 
-
 interface ResumeProps {
     basics: Basics;
     skills: string[];
