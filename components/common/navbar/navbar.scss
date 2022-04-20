@@ -1,0 +1,15 @@
+.navbar {
+    display: flex;
+    justify-content: end;
+    padding: 1rem;
+
+    a {
+        margin-left: 10px;
+        font-size: 1.5rem;
+        color: $blue;
+
+        &:hover {
+            color: darken($blue, 25%);
+        }
+    }
+}

@@ -5,11 +5,10 @@ interface SkillsProps {
 }
 
 const Skills: FC<SkillsProps> = ({ skills }) => {
-    return <div>
-        <span>{skills.map(skill => {
-            return <span key={skill}> {skill} | </span>;
+    return <div className="resume__skills">
+        {skills.map(skill => {
+            return <span key={skill}>{skill}</span>;
         })}
-        </span>
     </div>;
 };
 

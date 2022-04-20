@@ -1,0 +1,15 @@
+.resume__job {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    &__company {
+        display: flex;
+        align-items: flex-end;       
+
+        &__info {
+            font-size: 1.5rem;
+            margin-right: 1rem;
+        }
+    }
+}
