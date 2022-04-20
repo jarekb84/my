@@ -1,5 +1,5 @@
 import React, { FC } from 'react';
-import type { Job } from '../types';
+import { Job } from '../types';
 import DateRange from './dateRange/dateRange';
 import Position from './position';
 
