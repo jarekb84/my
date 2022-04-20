@@ -1,0 +1,18 @@
+@import './skills/skills.scss';
+@import './job/job.scss';
+
+.resume {
+    &__contact-info {
+        display: flex;
+        align-items: center;
+        
+
+        h1 {
+            font-size: 3rem;
+        }
+
+        &__basics {
+            margin-left: 1rem;
+        }
+    }
+}
