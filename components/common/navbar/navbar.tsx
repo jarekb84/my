@@ -10,7 +10,7 @@ const Navbar: FC = () => {
         <Link href="/resume">
             <a>Resume</a>
         </Link>
-    </ nav>;
+    </nav>;
 };
 
 export default Navbar;
