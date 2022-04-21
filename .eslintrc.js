@@ -113,5 +113,11 @@ module.exports = {
             'afterOpening': 'never',
             'beforeClosing': 'allow',
         }],
+        'react/jsx-equals-spacing': [2, 'never'],
+        'react/jsx-curly-spacing': [2, { when: 'never' }],
+        'react/jsx-curly-newline': [2, {
+            multiline: 'forbid',
+            singleline: 'forbid',
+        }],
     },
 };
