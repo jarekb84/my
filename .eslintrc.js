@@ -1,4 +1,3 @@
-/* eslint-disable no-magic-numbers */
 module.exports = {
     root: true,
     parser: '@typescript-eslint/parser',
