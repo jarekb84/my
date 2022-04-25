@@ -4,14 +4,14 @@
 .resume {
     &__contact-info {
         display: flex;
-        align-items: center;        
+        align-items: center;
+        flex-wrap: wrap;
 
         h1 {
             font-size: 3rem;
-        }
-
-        &__basics {
-            margin-left: 1rem;
+            margin-top: 1.5rem;
+            margin-bottom: 1.5rem;
+            margin-right: 1rem;
         }
     }
 }

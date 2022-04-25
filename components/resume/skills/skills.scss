@@ -1,6 +1,12 @@
 .resume__skills {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    flex-wrap: wrap;
 
     color: darken($gray, 15%);
+
+    span {
+        display: inline-block;
+        margin-right: 1.5rem;
+    }
 }
