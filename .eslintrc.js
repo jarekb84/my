@@ -1,4 +1,3 @@
-/* eslint-disable no-magic-numbers */
 module.exports = {
     root: true,
     parser: '@typescript-eslint/parser',
@@ -24,7 +23,6 @@ module.exports = {
 
         'no-duplicate-imports': 'error',
         'no-console': 'error',
-        'no-magic-numbers': ['error', { 'ignoreArrayIndexes': true }],
         'no-multi-assign': 'error',
         'no-nested-ternary': 'error',
         'no-unneeded-ternary': 'error',

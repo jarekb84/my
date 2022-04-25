@@ -12,4 +12,8 @@
             color: darken($blue, 25%);
         }
     }
+
+    @media print {
+        display: none;
+    }
 }
