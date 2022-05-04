@@ -31,6 +31,7 @@ const Home: NextPage = () => {
                         {' '}
                     to structure my resume data
                     </li>
+                    <li>Make sure the resume can easily be viewed on any device and be printed</li>
                 </ul>
             </div>
 
