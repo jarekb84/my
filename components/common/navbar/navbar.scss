@@ -3,13 +3,12 @@
     justify-content: end;
     padding: 1rem;
 
-    a {
+    &__link {
         margin-left: 10px;
         font-size: 1.5rem;
-        color: $blue;
 
-        &:hover {
-            color: darken($blue, 25%);
+        &--active {
+            text-decoration: underline;
         }
     }
 

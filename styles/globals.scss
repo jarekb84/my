@@ -1,6 +1,7 @@
 @import './colors';
 @import '../components/common/navbar/navbar.scss';
 @import '../components/resume/resume.scss';
+@import '../pages/index.scss';
 
 html,
 body {
@@ -18,6 +19,13 @@ body {
 a {
   color: inherit;
   text-decoration: none;
+
+  color: $blue;
+
+  &:hover {
+      color: darken($blue, 25%);
+      cursor: pointer;
+  }
 }
 
 * {
