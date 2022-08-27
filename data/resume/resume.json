@@ -16,7 +16,7 @@
       "startDate": "2021-08-01",
       "highlights": [
         "Built functional React components (utilizing hooks when appropriate), elevated common state and async handling to redux reducers, and extracted components as sensible patterns of usage emerged.",
-        "Utilize Grubhub’s component library for common cases to solve design needs, maintain consistency of user experience, and speed up development. For situational needs, have leveraged SCSS or Styled Components.",
+        "Utilize Grubhub's component library for common cases to solve design needs, maintain consistency of user experience, and speed up development. For situational needs, have leveraged SCSS or Styled Components.",
         "Wrote unit, integration, and E2E tests, balancing coverage, confidence, level of effort, and maintenance costs.",
         "Championed good programming practices by writing clear/maintainable code, thorough code reviews, balancing development speed vs tech debt, and participating in architecture discussions.",
         "Adept at ramping up on unfamiliar codebases and domains, making meaningful contributions, after tackling projects across the Restaurant, Delivery, Customer Support, Corporate Client, and Diner portions of the Grubhub business.",

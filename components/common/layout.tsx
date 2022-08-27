@@ -3,11 +3,11 @@ import Head from 'next/head';
 import Navbar from './navbar/navbar';
 
 interface LayoutProps {
-    pageName: string;
+    pageTitle: string;
 }
 
-const Layout: FC<LayoutProps> = ({ children, pageName }) => {
-    const title = `Jerry's ${pageName}`;
+const Layout: FC<LayoutProps> = ({ children, pageTitle }) => {
+    const title = `Jerry's ${pageTitle}`;
 
     return <>
         <Head>

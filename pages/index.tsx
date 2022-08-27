@@ -1,8 +1,9 @@
 import React from 'react';
 import type { NextPage } from 'next';
+import Layout from '../components/common/layout';
 
 const Home: NextPage = () => {
-    return (
+    return <Layout pageTitle="Home">
         <div className="home">
             <h1>Home</h1>
             <p className="home__intro">
@@ -37,7 +38,7 @@ const Home: NextPage = () => {
 
 
         </div>
-    );
+    </Layout>;
 };
 
 export default Home;
