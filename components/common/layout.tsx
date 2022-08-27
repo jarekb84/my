@@ -2,10 +2,16 @@ import React, { FC } from 'react';
 import Head from 'next/head';
 import Navbar from './navbar/navbar';
 
-const Layout: FC = ({ children }) => {
+interface LayoutProps {
+    pageName: string;
+}
+
+const Layout: FC<LayoutProps> = ({ children, pageName }) => {
+    const title = `Jerry's ${pageName}`;
+
     return <>
         <Head>
-            <title>JBX</title>
+            <title>{title}</title>
             <meta name="description" content="All about Jerry" />
             <link rel="icon" href="/favicon.ico" />
         </Head>

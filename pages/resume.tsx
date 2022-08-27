@@ -1,17 +1,17 @@
 import React, { FC } from 'react';
-import Resume from '../components/resume/resume';
+import { default as ResumeComponent } from '../components/resume/resume';
 import { Basics, Job } from '../components/resume/types';
 import resumeJson from '../data/resume/resume.json';
 import { ResumeJson, WorkItem } from '../data/resume/types';
 
-interface ResumePageProps {
+interface ResumeProps {
     basics: Basics;
     skills: string[];
     jobs: Job[];
 }
 
-const ResumePage: FC<ResumePageProps> = uiModel => {
-    return <Resume {...uiModel} />;
+const Resume: FC<ResumeProps> = uiModel => {
+    return <ResumeComponent {...uiModel} />;
 };
 
 export async function getStaticProps() {
@@ -22,7 +22,7 @@ export async function getStaticProps() {
     };
 }
 
-export default ResumePage;
+export default Resume;
 
 function transform({ basics, skills, work }: ResumeJson) {
     const uiModel = {
