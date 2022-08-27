@@ -1,15 +1,15 @@
-import { parseISO, format, isDate } from 'date-fns';
+import { parseISO, format } from 'date-fns';
 
 export function formatDate(dateVal: string | null, formatPattern: string, fallback = '') {
     if (!dateVal) {
         return fallback;
     }
 
-    const parsedDate = parseISO(dateVal);
+    try {
+        const parsedDate = parseISO(dateVal);
 
-    if (!isDate(parsedDate)) {
+        return format(parsedDate, formatPattern);
+    } catch (error) {
         return fallback;
     }
-
-    return format(parsedDate, formatPattern);
 }
