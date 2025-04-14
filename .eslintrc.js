@@ -118,4 +118,12 @@ module.exports = {
             singleline: 'forbid',
         }],
     },
+    overrides: [
+        {
+            files: ['*.tsx'],
+            rules: {
+                'react/no-unescaped-entities': 'off',
+            },
+        },
+    ],
 };

@@ -30,7 +30,7 @@ const Resume: FC<ResumeProps> = ({ basics, skills, jobs }) => {
                     </div>
                 </div>
             </div>
-            <div>
+            <div className="resume__summary">
                 {basics.summary}
             </div>
             <h2>Skills</h2>
