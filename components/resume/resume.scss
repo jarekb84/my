@@ -1,5 +1,6 @@
-@import './skills/skills.scss';
-@import './job/job.scss';
+@use 'styles/colors' as c;
+@use './skills/skills';
+@use './job/job';
 
 .resume {
     padding: 1rem 0;
@@ -12,7 +13,7 @@
 
         h1 {
             font-size: 2.75rem;
-            color: $navy;
+            color: c.$navy;
             margin-top: 0;
             margin-bottom: 0.5rem;
             margin-right: 2rem;
@@ -21,7 +22,7 @@
 
         &__basics {
             font-size: 1rem;
-            color: $medium-gray;
+            color: c.$medium-gray;
             line-height: 1.8;
 
             div {
@@ -29,7 +30,7 @@
             }
 
             strong {
-                color: $dark-gray;
+                color: c.$dark-gray;
                 margin-right: 0.5em;
             }
         }
@@ -37,16 +38,16 @@
 
     &__summary {
         font-size: 1.1rem;
-        color: $dark-gray;
+        color: c.$dark-gray;
         line-height: 1.7;
     }
 
     h2 {
         font-size: 1.6rem;
-        color: $navy;
+        color: c.$navy;
         margin-top: 1rem;
         margin-bottom: 1rem;
-        border-bottom: 2px solid $blue;
+        border-bottom: 2px solid c.$blue;
         display: inline-block;
     }
     @media print {

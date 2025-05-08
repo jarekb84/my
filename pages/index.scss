@@ -1,8 +1,9 @@
+@use 'styles/colors' as c;
 .home {
     padding: 0.5rem 0 2rem 0;
 
     h1 {
-        color: $navy;
+        color: c.$navy;
         margin-top: 0.5rem;
         margin-bottom: 1.5rem;
         text-align: center;
@@ -12,7 +13,7 @@
     &__intro, &__journey, &__closing-statement {
         font-size: 1.1rem;
         line-height: 1.65;
-        color: $dark-gray;
+        color: c.$dark-gray;
         text-align: left;
         max-width: 750px;
         margin: 0 auto 1.25rem auto;
@@ -26,26 +27,26 @@
     }
 
     &__section {
-        background-color: $white;
+        background-color: c.$white;
         padding: 1.5rem 2rem;
         margin-bottom: 2rem;
         border-radius: 8px;
-        border: 1px solid darken($light-gray, 5%);
-        box-shadow: 0 3px 6px rgba($dark-gray, 0.07);
+        border: 1px solid darken(c.$light-gray, 5%);
+        box-shadow: 0 3px 6px rgba(c.$dark-gray, 0.07);
 
         h2 {
             font-size: 1.7rem;
-            color: $navy;
+            color: c.$navy;
             margin-top: 0;
             margin-bottom: 1.25rem;
             padding-bottom: 0.5rem;
-            border-bottom: 2px solid $blue;
+            border-bottom: 2px solid c.$blue;
             display: inline-block;
         }
 
         h3 {
             font-size: 1.3rem;
-            color: $dark-gray;
+            color: c.$dark-gray;
             font-weight: 600;
             margin-top: 1.5rem;
             margin-bottom: 0.75rem;
@@ -54,7 +55,7 @@
         p {
             font-size: 1.05rem;
             line-height: 1.7;
-            color: $dark-gray;
+            color: c.$dark-gray;
             margin-bottom: 1rem;
         }
 
@@ -66,11 +67,11 @@
             li {
                 font-size: 1.05rem;
                 line-height: 1.7;
-                color: $dark-gray;
+                color: c.$dark-gray;
                 margin-bottom: 0.6rem;
 
                 strong {
-                    color: $navy;
+                    color: c.$navy;
                     font-weight: 600;
                 }
 
@@ -81,7 +82,7 @@
                     padding-left: 1.25rem;
                     li {
                         font-size: 1rem;
-                        color: $medium-gray;
+                        color: c.$medium-gray;
                     }
                 }
             }
@@ -95,7 +96,7 @@
     &__closing-statement {
         font-size: 1.15rem;
         line-height: 1.7;
-        color: $medium-gray;
+        color: c.$medium-gray;
         text-align: center;
         max-width: 750px;
         margin: 2.5rem auto 1rem auto;
