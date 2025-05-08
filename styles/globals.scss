@@ -1,3 +1,4 @@
+@use "sass:color";
 @use './colors' as c;
 @use '../components/common/navbar/navbar';
 @use '../components/resume/resume';
@@ -31,7 +32,7 @@ a {
 
   &:hover,
   &:focus {
-      color: darken(c.$blue, 15%);
+      color: color.adjust(c.$blue, $lightness: -15%);
       text-decoration: underline;
       cursor: pointer;
   }

@@ -1,3 +1,4 @@
+@use "sass:color";
 @use 'styles/colors' as c;
 .home {
     padding: 0.5rem 0 2rem 0;
@@ -31,7 +32,7 @@
         padding: 1.5rem 2rem;
         margin-bottom: 2rem;
         border-radius: 8px;
-        border: 1px solid darken(c.$light-gray, 5%);
+        border: 1px solid color.adjust(c.$light-gray, $lightness: -5%);
         box-shadow: 0 3px 6px rgba(c.$dark-gray, 0.07);
 
         h2 {
