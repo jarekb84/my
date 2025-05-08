@@ -1,17 +1,98 @@
 .resume__job {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    flex-wrap: wrap;
+    margin-bottom: 2.5rem;
+    padding: 1.5rem;
+    border: 1px solid $light-gray;
+    border-radius: 8px;
+    background-color: $white;
+    box-shadow: 0 2px 5px rgba($dark-gray, 0.05);
 
-    &__company {
+    &__header {
         display: flex;
-        align-items: flex-end;
+        justify-content: space-between;
+        align-items: flex-start;
         flex-wrap: wrap;
+        margin-bottom: 0.75rem;
+    }
 
+    &__company {       
         &__info {
-            font-size: 1.5rem;
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: $blue;
             margin-right: 1rem;
+            margin-bottom: 0.25rem;
+        }
+    }
+
+    .resume__job__position-title {
+        font-size: 1.1rem;
+        font-weight: 500;
+        color: $dark-gray;
+        margin-bottom: 0.25rem;
+    }
+   
+    .resume__job__date-range {
+        font-size: 0.95rem;
+        color: $medium-gray;
+        text-align: right;
+        flex-shrink: 0;
+    }
+
+    &__highlights {
+        list-style: none;
+        padding-left: 0;
+        margin-top: 1rem;
+
+        li {
+            font-size: 1rem;
+            color: $dark-gray;
+            line-height: 1.7;
+            margin-bottom: 0.6rem;
+            padding-left: 1.5em;
+            position: relative;
+
+            &::before {
+                content: '•';
+                color: $blue;
+                font-weight: bold;
+                display: inline-block;
+                position: absolute;
+                left: 0;
+                top: 0px;
+            }
+        }
+    }
+
+    @media (max-width: 768px) {
+        padding: 1rem;
+
+        &__header {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .resume__job__date-range {
+            text-align: left;
+            margin-top: 0.25rem;
+        }
+    }
+    @media print {
+        border: none;
+        padding: 0;
+        margin-bottom: 0rem;
+        box-shadow: none;
+
+        &__header {
+            margin-bottom: 0rem;
+        }
+
+        &__highlights {
+            margin-top: 0.25rem;
+            
+            li {
+                margin-bottom: 0rem;
+                line-height: 1.4;
+            }
         }
     }
 }

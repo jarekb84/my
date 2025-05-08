@@ -2,16 +2,72 @@
 @import './job/job.scss';
 
 .resume {
+    padding: 1rem 0;
+
     &__contact-info {
         display: flex;
-        align-items: center;
+        align-items: flex-start;
         flex-wrap: wrap;
+        margin-bottom: 2rem;
 
         h1 {
-            font-size: 3rem;
-            margin-top: 1.5rem;
-            margin-bottom: 1.5rem;
-            margin-right: 1rem;
+            font-size: 2.75rem;
+            color: $navy;
+            margin-top: 0;
+            margin-bottom: 0.5rem;
+            margin-right: 2rem;
+            line-height: 1.2;
+        }
+
+        &__basics {
+            font-size: 1rem;
+            color: $medium-gray;
+            line-height: 1.8;
+
+            div {
+                margin-bottom: 0.25rem;
+            }
+
+            strong {
+                color: $dark-gray;
+                margin-right: 0.5em;
+            }
+        }
+    }
+
+    &__summary {
+        font-size: 1.1rem;
+        color: $dark-gray;
+        line-height: 1.7;
+    }
+
+    h2 {
+        font-size: 1.6rem;
+        color: $navy;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        border-bottom: 2px solid $blue;
+        display: inline-block;
+    }
+    @media print {
+        padding: 0;
+
+        &__contact-info {
+            margin-bottom: 0rem;
+            padding-bottom: 0rem;
+        }
+
+        &__summary {
+            padding-bottom: 0rem;
+            margin-bottom: 0.5rem;
+        }
+
+        h2 {
+            font-size: 1.4rem;
+            margin-top: 0.5rem;
+            margin-bottom: 0.5rem;
+            padding-bottom: 0.1rem;
+            border-bottom-width: 1px;
         }
     }
 }

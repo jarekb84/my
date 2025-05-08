@@ -2,10 +2,10 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Jerry Batorski",
-    "label": "Frontend Software Engineer",
+    "label": "Staff Software Engineer",
     "email": "jerry.batorski@gmail.com",
     "url": "https://jarekb84.github.io/my",
-    "summary": "Frontend software engineer, with over a decade of experience, covering everything from implementing ideas to leading projects."
+    "summary": "Experienced Frontend Staff Engineer passionate about hands on development, building high quality, scalable web applications, and contributing to strong engineering cultures. Seeking an implementation focused role leveraging extensive experience in modern frontend technologies and a commitment to technical excellence."
   },
   "work": [
     {
@@ -15,15 +15,15 @@
       "position": "Staff Engineer",
       "startDate": "2021-08-01",
       "highlights": [
-        "Built functional React components (utilizing hooks when appropriate), elevated common state and async handling to redux reducers, and extracted components as sensible patterns of usage emerged.",
-        "Utilized Grubhub's component library for common cases to solve design needs, maintain consistency of user experience, and speed up development. For situational needs, have leveraged SCSS or Styled Components.",
-        "Wrote unit, integration, and E2E tests, balancing coverage, confidence, level of effort, and maintenance costs.",
-        "Championed good programming practices by writing clear/maintainable code, providing thorough code reviews, and balancing development speed vs tech debt.",
-        "Adept at ramping up on unfamiliar codebases and domains, to make meaningful contributions, after tackling projects across the Restaurant, Delivery, Customer Support, Corporate Client, and Diner portions of the Grubhub business.",
-        "Worked with product, design, and engineering across the organization to understand the impact of project changes, clarify intent, identify gaps, and propose solutions.",
-        "Broke projects down into deliverable features and parallelizable stories, prioritizing work based on the most business value.",
-        "Lead a squad of 3 front end engineers, mentored junior engineers, lead agile ceremonies, and was responsible for deliverables of multiple concurrent projects.",
-        "Heavily engaged in team book club, topics covering code quality, professionalism, communication, remote work, and project management. Phoenix Project, Clean Code, and GitLab’s Remote Work Playbook were especially influential in how my squad, team, and I operated."
+        "Authored clean, consistent, extensible, and maintainable React code, focusing on principles like separating presentation, business, and state logic to manage complexity effectively.",
+        "Leveraged component libraries and modern styling solutions (Styled Components) to accelerate development, ensure UI consistency, and improve code maintainability.",
+        "Implemented comprehensive testing strategies (unit, integration, E2E) using Jest/RTL/TestCafe, balancing coverage, confidence, and long term maintainability.",
+        "Championed robust engineering practices through thorough code reviews, proactive technical debt management, and fostering a culture of quality and shared ownership.",
+        "Led and implemented observability initiatives using Datadog (SLOs, monitors, dashboards), improving system visibility and establishing on-call/alert triage processes for frontend teams.",
+        "Rapidly assimilated complex codebases and diverse business domains (Restaurant, Delivery, Customer Support, Corporate, Diner) to deliver impactful solutions across large scale projects, such as catering and scheduled team order types.",
+        "Collaborated effectively with product, design, and engineering stakeholders to define project scope, identify technical requirements, and ensure successful feature delivery.",
+        "Actively evangelized and integrated AI development tools (Copilot, Gemini, Claude, RooCode) to enhance team productivity, streamline workflows (Jira story generation, code suggestions, AI PR reviews leveraging team defined coding standards), and foster adoption of modern development aids.",
+        "Mentored engineers in React, TypeScript, testing, and clean code principles, contributing to team skill development."
       ]
     },
     {
@@ -50,12 +50,12 @@
       "startDate": "2014-10-01",
       "endDate": "2016-08-01",
       "highlights": [
-        "Developed the Inventory product within CDK's application in the automotive dealership industry. App built using Angular JS and tested with Jasmine/Selenium. Utilized Grunt, RequireJS, ESLint, and Karma in the build process.",
-        "Helped team come up with a testing strategy encompassing unit, integration, and end to end tests to improve confidence when deploying changes from development to production environments.",
-        "Built the team's Continuous Integration pipeline using Git, Bamboo, Grunt, Jasmine/Karma, ESLint, Sonar, SauceLabs, Ansible, and Puppet. This included automated gating for code quality, code reviews, and unit/integration/e2e tests.",
-        "Helped team and company practice agile as a Scrum Master, mentored junior Product Owner regarding Agile practices, started Scrum discussions with other SM’s to share ideas, problems, and solutions.",
-        "Mentored developers in the practice of unit testing, writing maintainable code, design, and troubleshooting.",
-        "Advocate of documenting on-boarding procedures, research initiatives, and team strategies."
+        "Pivotal role in maturing from a passionate coder to a software engineer, embracing and championing agile methodologies, comprehensive testing (unit, integration, E2E), CI/CD, and clean code principles.",
+        "Developed key features for an inventory management product using AngularJS, employing Jasmine for unit testing and Selenium for E2E testing within a Grunt based build process.",
+        "Spearheaded the creation and adoption of the team's CI/CD pipeline using Git, Bamboo, Grunt, Jasmine/Karma, ESLint, Sonar, and SauceLabs, automating quality gates for code reviews, static analysis, and multi level testing.",
+        "Designed and implemented a comprehensive testing strategy, integrating unit, integration, and end-to-end tests to significantly improve deployment confidence and code quality.",
+        "Actively practiced and promoted Agile/Scrum, mentored junior Product Owners, and facilitated knowledge sharing among Scrum Masters to enhance team effectiveness.",
+        "Provided technical mentorship to developers on unit testing, maintainable code, software design, and advanced troubleshooting techniques."
       ]
     },
     {
@@ -66,10 +66,11 @@
       "startDate": "2012-03-01",
       "endDate": "2014-10-01",
       "highlights": [
-        "Developed live Q&A Angular.js based app utilizing SignalR across load balanced servers with a SQL Server Backplane to facilitate communication between thousands of connected clients.",
-        "Utilized MVC4 razor views, jQuery, and AJAX to develop admin interface with a simple workflow targeted at business users, allowing them to easily create and manage our Learning Management System component with little training.",
-        "Extended in-house CMS built upon C# .NET 4.5, Entity Framework, SQL Server 2012, MVC 4 Razor, and heavy use of jQuery and Ajax.",
-        "Developed XHTML template editor, infused with our custom modules, which allowed configuration without page refreshes."
+        "Gained extensive full-stack development experience (.NET, C#, SQL Server, JS/jQuery), taking ownership of features from concept to delivery and discovering a primary passion for frontend development.",
+        "Engineered a real time Q&A application using AngularJS and SignalR with a SQL Server backplane, enabling live video, chat, and data synchronization for thousands of concurrent users across load balanced servers.",
+        "Developed a user friendly admin interface for a Learning Management System using ASP.NET MVC, Razor Views, jQuery, and AJAX, simplifying content management for non technical users.",
+        "Extended and customized an in-house CMS (C#, .NET 4.5, Entity Framework, SQL Server, MVC4), building reusable widgets and an interactive HTML template editor with live configuration.",
+        "Independently analyzed complex requirements, architected solutions, and delivered end-to-end features, demonstrating strong problem-solving skills in a fast-paced environment."
       ]
     },
     {
@@ -80,10 +81,11 @@
       "startDate": "2010-08-01",
       "endDate": "2012-03-01",
       "highlights": [
-        "As part of a small team, developed an ASP.NET Online Recruiting System for school based personnel used to collect candidate data, automatically post vacant positions, and to hire candidates. Tight three-month schedule resulted in 30,000 applications and 3,200 hires within six months of launching.",
-        "On variety of smaller projects: met with stakeholders to understand business needs, worked with end users to understand workflows, and developed the ASP.NET apps to address those needs.",
-        "Initiated various internal system upgrades including: use of TFS as a source control system, developed a branching strategy to accommodate multiple development streams, upgraded all systems to .NET 4, introduced logging using Log4Net, and created a deployment and hosting strategy to accommodate the testing of multiple development streams.",
-        "Ran payroll for 55k+ employees, wrote SQL audit reports, built tooling to automate execution of reports."
+        "Demonstrated rapid learning and initiative by transitioning from payroll analysis to IT, self-teaching .NET and SQL to build impactful applications addressing critical business needs.",
+        "Co-developed a high-impact ASP.NET Online Recruiting System, processing 30,000+ applications and 3,200+ hires within six months of launch, significantly streamlining HR workflows.",
+        "Initiated and implemented critical internal system upgrades, including introducing TFS for source control, establishing branching/deployment strategies, upgrading systems to .NET 4, and integrating Log4Net for robust logging.",
+        "As a Payroll Analyst, developed SQL audit reports and automated tooling for processing payroll for 55k+ employees, ensuring accuracy and compliance with complex union rules and pension calculations.",
+        "Designed and developed various ASP.NET applications by directly collaborating with stakeholders to understand business requirements and user workflows."
       ]
     },
     {
@@ -127,24 +129,21 @@
     {
       "name": "Engineering",
       "keywords": [
+        "TypeScript",
         "JavaScript",
         "React",
-        "Redux",
-        "SCSS",
-        "Jasmine/Karma",
-        "TestCafe",
-        "Jest",
-        "RTL",
-        "TypeScript",
-        "SCRUM",
-        "JIRA",
-        "Git"
+        "Jest/RTL/TestCafe",
+        "CI/CD",
+        "Observability (Datadog)",
+        "AI Development Tools (Copilot/Roo/Gemini)",
+        "Technical Mentorship",
+        "Agile Methodologies"
       ]
     }
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
     "version": "v1.0.0",
-    "lastModified": "2022-03-13T00:00:00"
+    "lastModified": "2025-05-06"
   }
 }
