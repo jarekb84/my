@@ -10,6 +10,8 @@ export function formatDate(dateVal: string | null, formatPattern: string, fallba
 
         return format(parsedDate, formatPattern);
     } catch (error) {
+        console.error(error);
+
         return fallback;
     }
 }
