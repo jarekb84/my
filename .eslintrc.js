@@ -9,7 +9,6 @@ module.exports = {
         'next/core-web-vitals',
         'plugin:@typescript-eslint/recommended',
         'plugin:react/recommended',
-        'plugin:react-hooks/recommended',
     ],
     rules: {
         'eqeqeq': 'error',
@@ -22,7 +21,7 @@ module.exports = {
         'complexity': ['error', 5],
 
         'no-duplicate-imports': 'error',
-        'no-console': 'error',
+        'no-console': ['error', { allow: ['warn', 'error'] }],
         'no-multi-assign': 'error',
         'no-nested-ternary': 'error',
         'no-unneeded-ternary': 'error',

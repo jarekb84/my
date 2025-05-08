@@ -1,3 +1,5 @@
+@use "sass:color";
+@use 'styles/colors' as c;
 .resume__skills {
     display: flex;
     flex-wrap: wrap;
@@ -11,8 +13,8 @@
    
     &__item {
         display: inline-block;
-        background-color: $light-gray;
-        color: $dark-gray;
+        background-color: c.$light-gray;
+        color: c.$dark-gray;
         padding: 0.5rem 1rem;
         border-radius: 15px;
         font-size: 0.95rem;
@@ -26,9 +28,9 @@
         }
 
         &:hover {
-            background-color: darken($light-gray, 5%);
+            background-color: color.adjust(c.$light-gray, $lightness: -5%);
             transform: translateY(-2px);
-            box-shadow: 0 2px 4px rgba($dark-gray, 0.1);
+            box-shadow: 0 2px 4px rgba(c.$dark-gray, 0.1);
         }
     }
 }

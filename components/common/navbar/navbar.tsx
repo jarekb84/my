@@ -23,17 +23,24 @@ const links = [
 const Navbar: FC = () => {
     const { asPath } = useRouter();
 
-    return <nav className="navbar status">
-        {links.map(({ href, title, target, rel }) => {
-            return <Link href={href} key={href}>
-                <a className={`navbar__link ${asPath === href ? 'navbar__link--active' : ''}`}
-                    target={target}
-                    rel={rel}>
-                    {title}
-                </a>
-            </Link>;
-        })}
-    </nav>;
+    return (
+        <nav className="navbar status">
+            {links.map(({ href, title, target, rel }) => {
+                return (
+                    <Link
+                        href={href}
+                        key={href}
+                        className={`navbar__link ${asPath === href ? 'navbar__link--active' : ''}`}
+                        target={target}
+                        rel={rel}>
+
+                        {title}
+
+                    </Link>
+                );
+            })}
+        </nav>
+    );
 };
 
 export default Navbar;

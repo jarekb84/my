@@ -1,5 +1,5 @@
 import React, { FC } from 'react';
-import { Position } from '../types';
+import type { Position } from '../types';
 import DateRange from './dateRange/dateRange';
 
 const Position: FC<Position> = ({ title, startDate, endDate }) => {

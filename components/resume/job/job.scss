@@ -1,10 +1,11 @@
+@use 'styles/colors' as c;
 .resume__job {
     margin-bottom: 2.5rem;
     padding: 1.5rem;
-    border: 1px solid $light-gray;
+    border: 1px solid c.$light-gray;
     border-radius: 8px;
-    background-color: $white;
-    box-shadow: 0 2px 5px rgba($dark-gray, 0.05);
+    background-color: c.$white;
+    box-shadow: 0 2px 5px rgba(c.$dark-gray, 0.05);
 
     &__header {
         display: flex;
@@ -18,7 +19,7 @@
         &__info {
             font-size: 1.3rem;
             font-weight: 600;
-            color: $blue;
+            color: c.$blue;
             margin-right: 1rem;
             margin-bottom: 0.25rem;
         }
@@ -27,13 +28,13 @@
     .resume__job__position-title {
         font-size: 1.1rem;
         font-weight: 500;
-        color: $dark-gray;
+        color: c.$dark-gray;
         margin-bottom: 0.25rem;
     }
    
     .resume__job__date-range {
         font-size: 0.95rem;
-        color: $medium-gray;
+        color: c.$medium-gray;
         text-align: right;
         flex-shrink: 0;
     }
@@ -45,7 +46,7 @@
 
         li {
             font-size: 1rem;
-            color: $dark-gray;
+            color: c.$dark-gray;
             line-height: 1.7;
             margin-bottom: 0.6rem;
             padding-left: 1.5em;
@@ -53,7 +54,7 @@
 
             &::before {
                 content: '•';
-                color: $blue;
+                color: c.$blue;
                 font-weight: bold;
                 display: inline-block;
                 position: absolute;
